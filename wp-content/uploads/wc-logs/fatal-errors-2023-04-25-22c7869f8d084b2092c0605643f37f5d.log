@@ -1,0 +1,31 @@
+2023-04-25T09:07:35+00:00 CRITICAL Uncaught Error: Call to a member function get_category_ids() on null in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php:35
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include()
+#1 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#3 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 35
+
+2023-04-25T14:51:22+00:00 CRITICAL syntax error, unexpected end of file in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 272
+
+2023-04-25T14:52:11+00:00 CRITICAL syntax error, unexpected end of file in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 272
+
+2023-04-25T14:52:29+00:00 CRITICAL syntax error, unexpected end of file in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 270
+
+2023-04-25T14:54:54+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php:259
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include()
+#1 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#3 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 259
+
+2023-04-25T20:24:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 278 and at least 1 expected in C:\OSPanel\domains\test\wp-includes\pluggable.php:2804
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php(278): get_avatar()
+#1 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#4 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\pluggable.php on line 2804
+

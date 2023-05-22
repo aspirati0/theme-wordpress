@@ -1,0 +1,297 @@
+2023-04-26T10:29:35+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#13 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#14 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:29:37+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#13 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#14 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:30:26+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-admin\admin-ajax.php(22): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:31:13+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#13 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#14 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:31:14+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#13 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#14 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:32:27+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-admin\admin-ajax.php(22): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:34:29+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-admin\admin-ajax.php(22): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:35:00+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#13 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#14 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:35:01+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#13 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#14 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:36:29+00:00 CRITICAL Uncaught Error: Class "Custom_Footer_Widget" not found in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php:62
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\widgets.php(115): WP_Widget_Factory->register()
+#1 C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php(38): register_widget()
+#2 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): register_custom_footer_widget()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#6 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#7 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#9 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#10 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#11 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#12 C:\OSPanel\domains\test\wp-admin\admin-ajax.php(22): require_once('C:\\OSPanel\\doma...')
+#13 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-widget-factory.php on line 62
+
+2023-04-26T10:40:44+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\OSPanel\domains\test/wp-content/themes/theme1/theme1/Custom_Footer_Widget.php' (include_path='.') in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php:37
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-settings.php(591): include()
+#1 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#4 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#5 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 37
+
+2023-04-26T10:40:46+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\OSPanel\domains\test/wp-content/themes/theme1/theme1/Custom_Footer_Widget.php' (include_path='.') in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php:37
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-settings.php(591): include()
+#1 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#4 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#5 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 37
+
+2023-04-26T12:25:15+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:25:15+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:25:15+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:25:15+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:25:15+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:25:17+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:25:18+00:00 CRITICAL Cannot declare class Custom_Footer_Widget, because the name is already in use in C:\OSPanel\domains\test\wp-content\themes\theme1\custom_footer_widget.php on line 2
+
+2023-04-26T12:29:31+00:00 CRITICAL syntax error, unexpected token "public" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 85
+
+2023-04-26T12:29:32+00:00 CRITICAL syntax error, unexpected token "public" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 85
+
+2023-04-26T12:33:02+00:00 CRITICAL syntax error, unexpected token "public" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 85
+
+2023-04-26T12:33:04+00:00 CRITICAL syntax error, unexpected token "public" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 85
+
+2023-04-26T12:34:12+00:00 CRITICAL Unclosed '{' on line 56 in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 92
+
+2023-04-26T12:34:13+00:00 CRITICAL Unclosed '{' on line 56 in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 92
+
+2023-04-26T12:34:50+00:00 CRITICAL syntax error, unexpected token "<", expecting "function" or "const" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 45
+
+2023-04-26T12:34:51+00:00 CRITICAL syntax error, unexpected token "<", expecting "function" or "const" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 45
+
+2023-04-26T12:35:18+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 49
+
+2023-04-26T12:35:19+00:00 CRITICAL syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 49
+
+2023-04-26T13:16:25+00:00 CRITICAL Cannot redeclare my_recent_posts_widget() (previously declared in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php:106) in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 159
+
+2023-04-26T13:16:27+00:00 CRITICAL Cannot redeclare my_recent_posts_widget() (previously declared in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php:106) in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 159
+
+2023-04-26T13:27:04+00:00 CRITICAL syntax error, unexpected identifier "Marcellus", expecting "," or ";" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 126
+
+2023-04-26T13:27:05+00:00 CRITICAL syntax error, unexpected identifier "Marcellus", expecting "," or ";" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 126
+
+2023-04-26T13:27:05+00:00 CRITICAL syntax error, unexpected identifier "Marcellus", expecting "," or ";" in C:\OSPanel\domains\test\wp-content\themes\theme1\functions.php on line 126
+
+2023-04-26T13:59:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "stores_and_links" not found or invalid function name in C:\OSPanel\domains\test\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#4 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#6 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#7 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#8 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#9 C:\OSPanel\domains\test\wp-admin\admin-ajax.php(22): require_once('C:\\OSPanel\\doma...')
+#10 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-hook.php on line 308
+
+2023-04-26T13:59:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "stores_and_links" not found or invalid function name in C:\OSPanel\domains\test\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#4 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#6 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#7 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#8 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#9 C:\OSPanel\domains\test\wp-admin\admin.php(34): require_once('C:\\OSPanel\\doma...')
+#10 C:\OSPanel\domains\test\wp-admin\widgets.php(10): require_once('C:\\OSPanel\\doma...')
+#11 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-hook.php on line 308
+
+2023-04-26T13:59:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "stores_and_links" not found or invalid function name in C:\OSPanel\domains\test\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#1 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#2 C:\OSPanel\domains\test\wp-includes\widgets.php(1854): do_action()
+#3 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(308): wp_widgets_init()
+#4 C:\OSPanel\domains\test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 C:\OSPanel\domains\test\wp-includes\plugin.php(517): WP_Hook->do_action()
+#6 C:\OSPanel\domains\test\wp-settings.php(623): do_action()
+#7 C:\OSPanel\domains\test\wp-config.php(96): require_once('C:\\OSPanel\\doma...')
+#8 C:\OSPanel\domains\test\wp-load.php(50): require_once('C:\\OSPanel\\doma...')
+#9 C:\OSPanel\domains\test\wp-blog-header.php(13): require_once('C:\\OSPanel\\doma...')
+#10 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#11 {main}
+  thrown in C:\OSPanel\domains\test\wp-includes\class-wp-hook.php on line 308
+

@@ -1,0 +1,37 @@
+2023-04-27T06:42:48+00:00 CRITICAL syntax error, unexpected single-quoted string "fields", expecting ")" in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 55
+
+2023-04-27T06:46:09+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php:65
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include()
+#1 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#3 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 65
+
+2023-04-27T06:55:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_price_including_tax(), 0 passed in C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php on line 72 and at least 1 expected in C:\OSPanel\domains\test\wp-content\plugins\woocommerce\includes\wc-product-functions.php:981
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php(72): wc_get_price_including_tax()
+#1 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#4 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 981
+
+2023-04-27T06:57:29+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on int in C:\OSPanel\domains\test\wp-content\plugins\woocommerce\includes\wc-product-functions.php:990
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php(72): wc_get_price_including_tax()
+#1 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#4 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 990
+
+2023-04-27T06:57:37+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on int in C:\OSPanel\domains\test\wp-content\plugins\woocommerce\includes\wc-product-functions.php:990
+Stack trace:
+#0 C:\OSPanel\domains\test\wp-content\themes\theme1\front-page.php(72): wc_get_price_including_tax()
+#1 C:\OSPanel\domains\test\wp-includes\template-loader.php(106): include('C:\\OSPanel\\doma...')
+#2 C:\OSPanel\domains\test\wp-blog-header.php(19): require_once('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\test\index.php(17): require('C:\\OSPanel\\doma...')
+#4 {main}
+  thrown in C:\OSPanel\domains\test\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 990
+
